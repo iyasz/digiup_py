@@ -7,3 +7,5 @@ class Anak(Animal):
 
     def tampil(self):
       print('Nama = ',self.name, 'Umur = ', self.age, 'Warna = ', self.color)    
+
+

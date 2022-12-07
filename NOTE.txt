@@ -1,0 +1,23 @@
+<-- install Django -->
+
+pip install Django==4.1.3
+
+<-- Config Folder Django -->
+
+python –m django startproject bookreviews //bookreviews bebas rename
+
+<-- masuk folder dan rename bookreviews -->
+
+python manage.py runserver localhost:3000
+python manage.py runserver
+
+<-- membuat app -->
+
+python manage.py startapp book //book bebas
+
+<-- Installed app -->
+ 
+go setting at bookreviews
+urls.py
+views.py
+add folder templates
